@@ -30,12 +30,18 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+
+
+
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -43,8 +49,15 @@
             <version>1.18.28</version>
             <scope>provided</scope>
         </dependency>
-    </dependencies>
 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.38</version>
+        </dependency>
+
+
+    </dependencies>
     <build>
         <plugins>
             <plugin>
